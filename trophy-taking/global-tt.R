@@ -19,7 +19,7 @@ tt.PC1 <- gam(
   family=binomial(),
   data = trophies_new
 )
-summary(tt.PC1)
+summary(tt.PC1) 
 gam.check(tt.PC1)
 confint(tt.PC1, level=0.95)
 
